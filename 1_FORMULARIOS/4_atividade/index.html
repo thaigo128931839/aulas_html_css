@@ -9,63 +9,32 @@
 <body>
     <form action=""
     <div>
-        <input type="id" id="Nome" placeholder="Digite o seu nome " required>
+        <label for="Nome">Nome : </label>
+        <input type="id" id="Nome" placeholder="Digite o seu nome " required> <!--required faz o usuario digitar obriugatoriamente -->
     </div>
+
+    <!-- input radio -->
     <div>
-        <input type="date" id="Nome" placeholder="Digite a sua data  " required>
-    </div>
+       <p> Quem descobriu a america </p>
     <div>
-        <p> Qual e o seu lutador favorito </p>
-    </div>
-    </div>
-        <div>
-        <input type="radio" id="pocao2" name="lutadores">
-        <label for="pocao1">Alexandre Makheaven </label>
-    </div>
-        <div>
-      <input type="radio" id="pocao2" name="lutadores">
-        <label for="pocao1">Charles do bronxs</label>
-    </div>
-        <div>
-        <input type="radio" id="pocao2" name="lutadores">
-        <label for="pocao1">israel  adesandsay</label>
-    </div>
-        <div>
-         <input type="radio" id="pocao2" name="lutadores">
-        <label for="pocao1">MCMacgregor</label>
-    </div>
+        <input type="radio" id="pocao1" name="america">
+        <label for="pocao1">Pero vaz de caminha</label>
+     </div>
     <div>
-      <p> O Brasil foi hexa em 2022 ?</p>
+        <input type="radio" id="pocao2" name="america">
+        <label for="pocao2">Cristovão colombo</label>
      </div>
      <div>
-        <input type="radio" id="pocao1" name="tati">
-        <label for="pocao1">Sim </label>
-    </div>
-     <div>
-        <input type="radio" id="pocao1" name="tati">
-        <label for="pocao1">Não  </label>
-    </div>
-    <div>
-      <p> Qual e o unico mamiferoque voa </p>
-     </div>
-     <div>
-        <input type="radio" id="pocao2" name="jz">
-        <label for="pocao1"> Galinhas</label>
-    </div>
-        <div>
-      <input type="radio" id="pocao2" name="jz">
-        <label for="pocao1">Mathues _maximiano </label>
-    </div>
-        <div>
-        <input type="radio" id="pocao2" name="jz">
-        <label for="pocao1">Morcego </label>
-    </div>
-        <div>
-         <input type="radio" id="pocao2" name="jz">
-        <label for="pocao1">  Pasaro </label>
-    </div>
-     
-      
+        <label for="">Selecione a sua turma </label>
+        <select name="turma " id="turma">
+        <option disabled selected>selecione...</option>
+        <option value="">01MB</option>
+        <option value="">01MA</option>
+       
+       
+       </select>
+       </div>
+
     <button>Enviar</button>
 </body>
 </html>

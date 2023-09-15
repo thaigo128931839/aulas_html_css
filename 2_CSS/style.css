@@ -1,0 +1,21 @@
+h2 {
+    color: magenta ;
+}
+
+p {
+  color: peru;
+}
+
+h3{
+  color:  green;
+}
+  
+/* 6 classes */
+.paragrafos {
+    background-color: indigo;
+    color: red;
+}
+
+.cor-textos{
+   color: gold;
+}
