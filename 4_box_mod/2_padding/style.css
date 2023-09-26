@@ -1,0 +1,33 @@
+div {
+    border: 4px dotted #00f;
+    width: fit-content;
+    font-size: 24px;
+
+    padding: 20px ;
+
+    padding: 30px;
+
+    padding:20px 50px 5px;
+
+    padding: 30px 50px 70px 90px;
+
+    padding-inline: 40px;
+    padding-block:  20px;
+}
+
+h1 {
+    border: 1px solid #765676;
+    margin-bottom:  20px;
+}
+
+.algum {
+    margin-bottom: 100px;
+}
+
+.ultimos{
+    margin-bottom: 50px ;
+}
+
+.outro{
+    margin-left: 300px;
+}

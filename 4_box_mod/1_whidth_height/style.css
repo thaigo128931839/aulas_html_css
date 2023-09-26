@@ -1,0 +1,20 @@
+.caixa_width{
+border-width: 2px;
+border-style: solid;
+border-color:  rgb(94, 30, 192);
+
+border:  2px solid rgb(94, 30, 192);
+width: 200px;
+}
+
+.imagem_width{
+    width: 300px;
+}
+
+.caixa_height{
+border: 1px dashed yellowgreen;
+
+height: 100px;
+width: 100px;
+
+}
